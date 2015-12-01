@@ -1863,6 +1863,18 @@ design rules under a new name.</description>
 <wire x1="58.9788" y1="51.0921" x2="59.8932" y2="50.1777" width="0.3048" layer="16"/>
 <wire x1="77.3811" y1="51.0921" x2="77.42" y2="51.19" width="0.3048" layer="16"/>
 <wire x1="58.9788" y1="51.0921" x2="58.92" y2="51.19" width="0.3048" layer="16"/>
+<contactref element="U4" pad="P$5"/>
+<wire x1="61.0362" y1="24.1173" x2="58.9788" y2="24.1173" width="0.3048" layer="1"/>
+<wire x1="61.4934" y1="23.6601" x2="61.0362" y2="24.1173" width="0.3048" layer="1"/>
+<wire x1="62.1792" y1="22.9743" x2="61.4934" y2="23.6601" width="0.3048" layer="16"/>
+<wire x1="66.8655" y1="22.9743" x2="62.1792" y2="22.9743" width="0.3048" layer="16"/>
+<wire x1="75.6666" y1="31.7754" x2="66.8655" y2="22.9743" width="0.3048" layer="16"/>
+<wire x1="75.6666" y1="49.3776" x2="75.6666" y2="31.7754" width="0.3048" layer="1"/>
+<wire x1="77.3811" y1="51.0921" x2="75.6666" y2="49.3776" width="0.3048" layer="1"/>
+<wire x1="58.9788" y1="24.1173" x2="58.92" y2="24.175" width="0.3048" layer="1"/>
+<wire x1="77.3811" y1="51.0921" x2="77.42" y2="51.19" width="0.3048" layer="1"/>
+<via x="61.4934" y="23.6601" extent="1-16" drill="0.3048"/>
+<via x="75.6666" y="31.7754" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="N$7">
 <contactref element="U4" pad="P$6"/>
@@ -2098,6 +2110,14 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$19">
 <contactref element="U4" pad="P$17"/>
+<contactref element="LED5" pad="1"/>
+<wire x1="69.8373" y1="15.3162" x2="69.1515" y2="15.3162" width="0.3048" layer="1"/>
+<wire x1="74.9808" y1="20.4597" x2="69.8373" y2="15.3162" width="0.3048" layer="1"/>
+<wire x1="74.9808" y1="43.6626" x2="74.9808" y2="20.4597" width="0.3048" layer="1"/>
+<wire x1="77.3811" y1="46.0629" x2="74.9808" y2="43.6626" width="0.3048" layer="16"/>
+<wire x1="69.1515" y1="15.3162" x2="69.08" y2="15.285" width="0.3048" layer="1"/>
+<wire x1="77.3811" y1="46.0629" x2="77.42" y2="46.11" width="0.3048" layer="16"/>
+<via x="74.9808" y="43.6626" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="N$21">
 <contactref element="LED5" pad="2"/>

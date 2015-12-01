@@ -3141,7 +3141,7 @@ or will meet your specific requirements.&lt;p&gt;
 <instance part="3.3V" gate="1" x="170.18" y="68.58"/>
 <instance part="SJ23" gate="1" x="125.73" y="58.42"/>
 <instance part="SJ24" gate="1" x="125.73" y="45.72"/>
-<instance part="U4" gate="G$1" x="317.5" y="134.62"/>
+<instance part="U4" gate="G$1" x="318.77" y="134.62"/>
 <instance part="GND1" gate="1" x="299.72" y="93.98"/>
 <instance part="GND2" gate="1" x="275.59" y="104.14"/>
 <instance part="C8" gate="G$1" x="275.59" y="115.57"/>
@@ -3222,9 +3222,9 @@ or will meet your specific requirements.&lt;p&gt;
 <wire x1="153.67" y1="45.72" x2="153.67" y2="49.53" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="299.72" y1="96.52" x2="302.26" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="VSS"/>
 <pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="303.53" y1="96.52" x2="299.72" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -3343,7 +3343,7 @@ or will meet your specific requirements.&lt;p&gt;
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="VDD"/>
-<wire x1="302.26" y1="160.02" x2="276.86" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="303.53" y1="160.02" x2="276.86" y2="160.02" width="0.1524" layer="91"/>
 <label x="276.86" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -3512,8 +3512,8 @@ or will meet your specific requirements.&lt;p&gt;
 <label x="191.77" y="34.29" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="302.26" y1="152.4" x2="276.86" y2="152.4" width="0.1524" layer="91"/>
-<junction x="302.26" y="152.4"/>
+<wire x1="303.53" y1="152.4" x2="276.86" y2="152.4" width="0.1524" layer="91"/>
+<junction x="303.53" y="152.4"/>
 <pinref part="U4" gate="G$1" pin="SCL"/>
 <label x="276.86" y="152.4" size="1.778" layer="95"/>
 </segment>
@@ -3531,8 +3531,8 @@ or will meet your specific requirements.&lt;p&gt;
 <label x="191.77" y="31.75" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="302.26" y1="149.86" x2="276.86" y2="149.86" width="0.1524" layer="91"/>
-<junction x="302.26" y="149.86"/>
+<wire x1="303.53" y1="149.86" x2="276.86" y2="149.86" width="0.1524" layer="91"/>
+<junction x="303.53" y="149.86"/>
 <pinref part="U4" gate="G$1" pin="SDA"/>
 <label x="276.86" y="149.86" size="1.778" layer="95"/>
 </segment>
@@ -3703,7 +3703,7 @@ or will meet your specific requirements.&lt;p&gt;
 <net name="N$1" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="COM0/AD"/>
-<wire x1="332.74" y1="114.3" x2="388.62" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="114.3" x2="388.62" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="114.3" x2="388.62" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="14"/>
 <wire x1="388.62" y1="147.32" x2="388.62" y2="152.4" width="0.1524" layer="91"/>
@@ -3732,7 +3732,7 @@ or will meet your specific requirements.&lt;p&gt;
 <net name="N$4" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="COM1/KS0"/>
-<wire x1="332.74" y1="111.76" x2="386.08" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="111.76" x2="386.08" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="111.76" x2="386.08" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="16"/>
 <wire x1="386.08" y1="139.7" x2="386.08" y2="157.48" width="0.1524" layer="91"/>
@@ -3761,7 +3761,7 @@ or will meet your specific requirements.&lt;p&gt;
 <net name="N$5" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="COM2/KS1"/>
-<wire x1="332.74" y1="109.22" x2="383.54" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="109.22" x2="383.54" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="109.22" x2="383.54" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="13"/>
 <wire x1="383.54" y1="149.86" x2="393.7" y2="149.86" width="0.1524" layer="91"/>
@@ -3777,7 +3777,7 @@ or will meet your specific requirements.&lt;p&gt;
 </net>
 <net name="N$6" class="0">
 <segment>
-<wire x1="331.47" y1="106.68" x2="381" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="106.68" x2="381" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="381" y1="106.68" x2="381" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="3"/>
 <wire x1="381" y1="124.46" x2="393.7" y2="124.46" width="0.1524" layer="91"/>
@@ -3789,12 +3789,13 @@ or will meet your specific requirements.&lt;p&gt;
 <wire x1="393.7" y1="-34.29" x2="381" y2="-34.29" width="0.1524" layer="91"/>
 <wire x1="381" y1="-34.29" x2="381" y2="44.45" width="0.1524" layer="91"/>
 <junction x="381" y="44.45"/>
+<pinref part="U4" gate="G$1" pin="COM3/KS2"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="COM4"/>
-<wire x1="332.74" y1="104.14" x2="378.46" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="104.14" x2="378.46" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="378.46" y1="104.14" x2="378.46" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="5"/>
 <wire x1="378.46" y1="129.54" x2="393.7" y2="129.54" width="0.1524" layer="91"/>
@@ -3811,7 +3812,7 @@ or will meet your specific requirements.&lt;p&gt;
 <net name="N$8" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="COM5"/>
-<wire x1="332.74" y1="101.6" x2="375.92" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="101.6" x2="375.92" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="101.6" x2="375.92" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="11"/>
 <wire x1="375.92" y1="144.78" x2="393.7" y2="144.78" width="0.1524" layer="91"/>
@@ -3828,7 +3829,7 @@ or will meet your specific requirements.&lt;p&gt;
 <net name="N$9" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="COM6"/>
-<wire x1="332.74" y1="99.06" x2="373.38" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="99.06" x2="373.38" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="99.06" x2="373.38" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="15"/>
 <wire x1="373.38" y1="154.94" x2="393.7" y2="154.94" width="0.1524" layer="91"/>
@@ -3845,7 +3846,7 @@ or will meet your specific requirements.&lt;p&gt;
 <net name="N$10" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="COM7"/>
-<wire x1="332.74" y1="96.52" x2="370.84" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="96.52" x2="370.84" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="96.52" x2="370.84" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="7"/>
 <wire x1="370.84" y1="134.62" x2="393.7" y2="134.62" width="0.1524" layer="91"/>
@@ -3862,7 +3863,7 @@ or will meet your specific requirements.&lt;p&gt;
 <net name="N$11" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="ROW0/A2"/>
-<wire x1="332.74" y1="160.02" x2="368.3" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="160.02" x2="368.3" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="160.02" x2="368.3" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="1"/>
 <wire x1="368.3" y1="119.38" x2="393.7" y2="119.38" width="0.1524" layer="91"/>
@@ -3874,13 +3875,13 @@ or will meet your specific requirements.&lt;p&gt;
 <wire x1="393.7" y1="121.92" x2="365.76" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="121.92" x2="365.76" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="ROW1/A1"/>
-<wire x1="365.76" y1="157.48" x2="332.74" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="157.48" x2="334.01" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="ROW2/A0"/>
-<wire x1="332.74" y1="154.94" x2="363.22" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="154.94" x2="363.22" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="154.94" x2="363.22" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="6"/>
 <wire x1="363.22" y1="132.08" x2="393.7" y2="132.08" width="0.1524" layer="91"/>
@@ -3892,13 +3893,13 @@ or will meet your specific requirements.&lt;p&gt;
 <wire x1="393.7" y1="137.16" x2="360.68" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="137.16" x2="360.68" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="ROW3/K1"/>
-<wire x1="360.68" y1="152.4" x2="332.74" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="152.4" x2="334.01" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="ROW4/K2"/>
-<wire x1="332.74" y1="149.86" x2="358.14" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="149.86" x2="358.14" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="149.86" x2="358.14" y2="39.37" width="0.1524" layer="91"/>
 <pinref part="LED4" gate="G$1" pin="1"/>
 <wire x1="358.14" y1="39.37" x2="393.7" y2="39.37" width="0.1524" layer="91"/>
@@ -3910,13 +3911,13 @@ or will meet your specific requirements.&lt;p&gt;
 <wire x1="393.7" y1="41.91" x2="355.6" y2="41.91" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="41.91" x2="355.6" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="ROW5/K3"/>
-<wire x1="355.6" y1="147.32" x2="332.74" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="147.32" x2="334.01" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="ROW6/K4"/>
-<wire x1="332.74" y1="144.78" x2="353.06" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="144.78" x2="353.06" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="144.78" x2="353.06" y2="52.07" width="0.1524" layer="91"/>
 <pinref part="LED4" gate="G$1" pin="6"/>
 <wire x1="353.06" y1="52.07" x2="393.7" y2="52.07" width="0.1524" layer="91"/>
@@ -3928,15 +3929,16 @@ or will meet your specific requirements.&lt;p&gt;
 <wire x1="393.7" y1="57.15" x2="350.52" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="57.15" x2="350.52" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="ROW7/K5"/>
-<wire x1="350.52" y1="142.24" x2="332.74" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="142.24" x2="334.01" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="ROW8/K6"/>
-<wire x1="332.74" y1="139.7" x2="347.98" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="139.7" x2="347.98" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="139.7" x2="347.98" y2="-39.37" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="-39.37" x2="393.7" y2="-39.37" width="0.1524" layer="91"/>
+<pinref part="LED5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -3945,13 +3947,13 @@ or will meet your specific requirements.&lt;p&gt;
 <wire x1="393.7" y1="-36.83" x2="345.44" y2="-36.83" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="-36.83" x2="345.44" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="ROW9/K7"/>
-<wire x1="345.44" y1="137.16" x2="332.74" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="137.16" x2="334.01" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="ROW10/K8"/>
-<wire x1="332.74" y1="134.62" x2="342.9" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="134.62" x2="342.9" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="134.62" x2="342.9" y2="-26.67" width="0.1524" layer="91"/>
 <pinref part="LED5" gate="G$1" pin="6"/>
 <wire x1="342.9" y1="-26.67" x2="393.7" y2="-26.67" width="0.1524" layer="91"/>
@@ -3963,13 +3965,13 @@ or will meet your specific requirements.&lt;p&gt;
 <wire x1="393.7" y1="-21.59" x2="340.36" y2="-21.59" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="-21.59" x2="340.36" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="ROW11/K9"/>
-<wire x1="340.36" y1="132.08" x2="332.74" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="132.08" x2="334.01" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="ROW12/K10"/>
-<wire x1="332.74" y1="129.54" x2="363.22" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="129.54" x2="363.22" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="129.54" x2="363.22" y2="127" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="4"/>
 <wire x1="393.7" y1="127" x2="391.16" y2="127" width="0.1524" layer="91"/>
@@ -3988,7 +3990,7 @@ or will meet your specific requirements.&lt;p&gt;
 <pinref part="LED4" gate="G$1" pin="4"/>
 <wire x1="391.16" y1="46.99" x2="393.7" y2="46.99" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="ROW13/K11"/>
-<wire x1="332.74" y1="127" x2="360.68" y2="127" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="127" x2="360.68" y2="127" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="127" x2="360.68" y2="62.23" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="62.23" x2="391.16" y2="62.23" width="0.1524" layer="91"/>
 <junction x="391.16" y="62.23"/>
@@ -4002,7 +4004,7 @@ or will meet your specific requirements.&lt;p&gt;
 <pinref part="LED5" gate="G$1" pin="4"/>
 <wire x1="391.16" y1="-31.75" x2="393.7" y2="-31.75" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="ROW14/K12"/>
-<wire x1="332.74" y1="124.46" x2="363.22" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="124.46" x2="363.22" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="124.46" x2="363.22" y2="-16.51" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="-16.51" x2="391.16" y2="-16.51" width="0.1524" layer="91"/>
 <junction x="391.16" y="-16.51"/>
