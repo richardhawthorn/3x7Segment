@@ -1,0 +1,30 @@
+Part     Value          Device 
+
+C1       0.1uF          CAP0805-CAP 
+C2       0.1uF          CAP0805-CAP 
+C3       0.1uF          CAP0805-CAP 
+C4       0.1uF          CAP0805-CAP 
+C5       1uF            CAP0805-CAP 
+C6       10uF           CAP0805-CAP 
+C8       0.1uF          CAP0805-CAP 
+CN1      USB            USB-MINI-B 
+JP1      FTDI           PINHD-1X6 
+LED3     7SEG-4DIGIT    7SEG-4DIGIT  
+LED4     7SEG-4DIGIT    7SEG-4DIGIT 
+LED5     7SEG-4DIGIT    7SEG-4DIGIT 
+R1       4.7k           RESISTOR0805-RES 
+R2       4.7k           RESISTOR0805-RES 
+R3       4.7k           RESISTOR0805-RES 
+S1       RESET          DTSM-3  
+U1       ESP8266        ESP8266-ESP12E 
+U3       REG1117        REG1117 
+U4       HT16K33        HT16K33_SOP28
+
+Future Upgrade
+
+U2       FT232RLSSOP    FT232RLSSOP 
+C7       0.1uF          CAP0805-CAP 
+R4       1K             RESISTOR0402-RES 
+R5       1K             RESISTOR0402-RES 
+LED1     Red            LED0603 
+LED2     Green          LED0603 
